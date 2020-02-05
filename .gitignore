@@ -41,8 +41,6 @@ build/Release
 node_modules/
 jspm_packages/
 
-# TypeScript v1 declaration files
-typings/
 
 # TypeScript cache
 *.tsbuildinfo
@@ -67,10 +65,6 @@ typings/
 
 # Yarn Integrity file
 .yarn-integrity
-
-# dotenv environment variables file
-.env
-.env.test
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -102,3 +96,11 @@ dist
 
 # TernJS port file
 .tern-port
+
+# VisualCode files
+.vscode/*
+.vscode
+*.code-workspace
+
+# MacOS tmp files
+.DS_Store

@@ -1,0 +1,38 @@
+{
+  "name": "graphql",
+  "version": "0.0.0",
+  "description": "Test project with graphql",
+  "main": "index.js",
+  "repository": "https://github.com/andrew-luchkevych/graphql.git",
+  "author": "andrew-luchkevych <gector378@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/node": "^13.7.0",
+    "ts-node": "^8.6.2",
+    "tsconfig-paths": "^3.9.0",
+    "tslint": "^6.0.0",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "@types/koa-router": "^7.4.0",
+    "apollo-server-koa": "^2.9.16",
+    "bcrypt": "^3.0.7",
+    "dataloader": "^2.0.0",
+    "dotenv": "^8.2.0",
+    "graphql": "^14.4.2",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^8.0.6",
+    "pg": "^7.12.1",
+    "reflect-metadata": "^0.1.13",
+    "ts-node-dev": "^1.0.0-pre.40",
+    "type-graphql": "^0.17.4",
+    "typeorm": "0.2.22"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "typeorm": "ts-node -r tsconfig-paths/register ./node_modules/typeorm/cli.js"
+  }
+}
